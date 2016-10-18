@@ -48,7 +48,7 @@ html, body {
 	background-size: auto;
 	background-repeat: no-repeat;
 	background-position-y:-1669px;
-	position: fixed;
+	position: absolute;
 	margin-top: -100px;
 	margin-top: 0px;
     margin-left: 0;
@@ -65,8 +65,16 @@ html, body {
 	margin-top: 50px;
 }
 
+.headerText__by{
+	color:white;
+	text-align: center;
+	z-index: 10;
+	font-family: "Kaushan Script", sans-serif;
+	font-size: 16px;
+}
+
 .restaurant{
-	height: 50%;
+	height: 700px;
 	width: 100%;
 }
 
@@ -206,7 +214,16 @@ textarea{
 	width: 15%;
 	background-color: white;
 	text-align: center;
+}
 
+.tab:hover a {
+	color:#602c1c;
+}
+
+.tab a {
+	display:block;
+	color:white;
+	text-decoration:none;
 }
 
 .menuContent{
