@@ -39,6 +39,8 @@ html, body {
 	background-size: 150px;
 }
 
+
+
 .header{
 	height: 150px;
 	width:100%;
@@ -318,13 +320,29 @@ select{
 }
 h6 {
 	margin-top: -40px;
+	width:75%;
 	margin: auto, 0;
 	text-align: center;
 	font-size: 18px;
 	font-family: 'Alice', sans-serif;
 	margin-left: 144px;
+	opacity: 0.5;
+	transition: opacity 0.5s;
+}
+
+h6:hover {
+	margin-top: -40px;
+	width: 75%;
+	margin: auto, 0;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Alice', sans-serif;
+	margin-left: 144px;
+	opacity: 1;
+	transition: opacity 0.5s;
 
 }
+
 #location {
 	height: 435px;
 	width: 50%;
@@ -468,19 +486,50 @@ i {
 	float:right;
 	margin-right: 10px;
 	margin-top: 15px;
+	transition: opacity .5s;
+	opacity: 0.5;
+}
+
+i:hover {
+	height: 30px;
+	width: 30px;
+	color:black;
+	float:right;
+	margin-right: 10px;
+	margin-top: 15px;
+	transition: opacity .5s;
+	opacity: 1;
 }
 
 #socialMedia > img{
-	height:30px;
-	width:35px;
-	background-color:white;
-	border-radius: 5px;
-	border:2px solid black;
-	top: 10px;
-	float:right;
-	margin-right: 10px;
-	color:white;
-	margin-top: 15px;
+	transition: opacity .5s;
+    opacity: 0.5;
+    height: 30px;
+    width: 35px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    top: 10px;
+    float: right;
+    margin-right: 10px;
+    color: white;
+    margin-top: 15px;
+	
+}
+
+#socialMedia > img:hover{
+	transition: opacity .5s;
+    opacity: 1;
+    height: 30px;
+    width: 35px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    top: 10px;
+    float: right;
+    margin-right: 10px;
+    color: white;
+    margin-top: 15px;
 	
 }
 
