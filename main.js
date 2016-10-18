@@ -176,6 +176,7 @@ $(document).ready(function() {
         initMap()
       }
   })
+    
 
 }) //DOCUMENT.READY CLOSING TAGS
         
