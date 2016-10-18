@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lagoon Valley</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fonts/css/font-awesome.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Alice|Josefin+Slab|Kaushan+Script|Open+Sans|Playfair+Display+SC" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="container">
+	
+    <div class="header">
+    <div class="headerText">
+    Where Paradise meets Oasis!
+    	</div>
+    	<div id="bg_overlay">
+    		<div id="logo__header"></div>
+		</div>
+	</div><br>
+
+	<div id="picmatch">
+		<div class="restaurant"></div>
+	</div>
+
+	<div class="tabs">	
+		<ul class="tab__buttons">
+			<li class="tab" content="about">About</li>
+			<li class="tab" content="menu">Menu</li>
+			<li class="tab" content="specials">Specials</li>
+			<li class="tab" content="news">News</li>
+			<li class="tab" content="location">Location</li>
+			<li class="tab" content="reservations">Reservations</li>
+		</ul>
+			<div class="content" id="about">
+				<img id="bio" src="images/IMG_5206.jpg"/><p class="story">This story began with four Dj's across the States. First off, we have "Mista JQuery" who's first name is Ryan. Ryan is originally from Miami. He made a name for himself as the Bad Boy of South Beach. Next we have Bang! Bang!(Tim) straight outta D.C. the president of Dj's. Next we have DJSon(Jason) outta San Deigo bringing that beach vibe everywhere he goes. Last but not least we got Sin City's own Dusty Ajax(Dustin). JQuery, Bang! Bang!, and Json all took their talents to Sin City they all would meet each other working gigs in Vegas and became good friends. One day Jquery now only known as Ryan decided to lay down his records and try his hand at cooking. Tim, Dustin and Jason would tell Ryan he should try out for a cooking show so he did. He made top 80 on MasterCook and six months later he was MasterCook Champion. Ryan then had an idea to start up a restaurant with his friends. We joined together and started working right away. It took awhile to come up with a theme for which we all agreed on but leave it to Tim to bring it and say why dont we "bring the beach to the valley". We loved that idea not long after Tim also came up with our restaurant name "Lagoon Valley, LV". That was it we never looked back been business partners since we open these doors on September 26th 2016. We have more ideas up our sleeve join our newsletter to see what project we have in store we could be coming to your city next.</p> </div>
+		
+		<div class="content" id="menu">
+			 <div id="appetizers">
+		      	<p class="menuHeader">Appetizers</p>
+			    <div id="appetizersPlacement"></div>
+  			  </div>
+			  
+			  <div id="entrees">
+	      		<p class="menuHeader">Entrees</p>
+		      	<div id="entreePlacement"></div>
+			  </div>
+
+			  <div id="sides">
+	      		<p class="menuHeader">Sides</p>
+		      	<div id="sidesPlacement"></div>
+			  </div>
+		</div>	
+		
+		<div class="content specialsMenu" id="specials"></div>
+
+		<div class="content" id="news"></div>
+
+		<div class="content" id="location"></div>
+
+		<div class="content" id="reservations">
+			<label class="name">Full Name</label><br>
+			<input type="text" id="name" name="name" placeholder="Name" /><br>
+			<label class="guest">Number of Guests</label><br>
+			<input type="number" id="number" name="number" placeholder="0" /><br>
+			<label class="date">Date</label><br>
+			<input type="date" id="dates" name="dates">
+			<label class="notes"><br>Special Notes</label>
+			<form><textarea rows="8" cols="35"></textarea></form><br>
+			<label class="seating">Seating Preference</label><br>
+			<select name="seating" id="preference">
+			  <option value="Choose">Choose Seating</option>
+			  <option value="Choose">Inside</option>
+			  <option value="Choose">Outside</option>
+			  </select><br>
+			  <button>Reserve</button>
+		</div>  
+
+	</div>
+		
+	
+	<div class="footer">
+			<div id="socialMedia">
+		<i class="fa fa-facebook-square fa-2x" aria-hidden="true" style="color:white"></i>
+			<i class="fa fa-twitter-square fa-2x" aria-hidden="true" style="color:white"></i>
+				<i class="fa fa-instagram fa-2x" aria-hidden="true" style="color:white"></i>
+					 <img src="icons/OpenTableLogo.png" style="color:white">
+							</div>
+		<p>&#169; <img src="images/Lagoon_Valley_Logo.png" style="width:65px;"><h6> 1112 S Casino Center Blvd, Las Vegas, NV 89104 </h6></p>
+	</div>
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvXyBl_uPBIYJlGfGn_XzF5omkOzpmSYw&callback=initMap">
+</script>
+ <script src="main.js"></script>	
+
+</body>
+</html>
