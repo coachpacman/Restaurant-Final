@@ -54,6 +54,7 @@ html, body {
     margin-left: 0;
     padding-left: 0;
 	z-index: 9;
+	transition: background 1.5s;
 }
 
 .headerText{
@@ -63,6 +64,18 @@ html, body {
 	font-family: "Kaushan Script", sans-serif;
 	font-size: 35px;
 	margin-top: 50px;
+}
+
+.header:hover {
+    height: 150px;
+    width: 100%;
+    background-image: url(images/djson.jpg);
+    z-index: 99;
+    opacity: 1;
+    background-position-y: 0px;
+    background-size: 200px 200px;
+    background-repeat: repeat-x;
+    transition: background 3s;
 }
 
 .headerText__by{
